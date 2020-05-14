@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt_featured"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_14dp"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/featured_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_toStartOf="@+id/view_all_featured"
+        android:text="@string/featured_posts"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/view_all_featured"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_14dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="end"
+        android:text="@string/view_all"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_featured_posts"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/margin_180dp"
+        android:layout_below="@+id/featured_title"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:overScrollMode="never"
+        android:paddingEnd="@dimen/margin_40dp"
+        android:paddingStart="@dimen/margin_3dp"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>

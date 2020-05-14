@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/post_img"
+        android:layout_width="@dimen/margin_120dp"
+        android:layout_height="@dimen/margin_120dp"
+        android:layout_margin="@dimen/margin_8dp"
+        android:background="@color/light_gray"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/lyt_secondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/post_img"
+        android:layout_toStartOf="@+id/btn_book"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@font/merriweather"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3dp"
+            android:fontFamily="@font/libre_franklin"
+            android:paddingBottom="@dimen/margin_4dp"
+            android:paddingEnd="@dimen/margin_8dp"
+            android:paddingStart="@dimen/margin_8dp"
+            android:paddingTop="@dimen/margin_4dp"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            tools:background="@drawable/rectangle_pink"
+            tools:text="@string/app_name" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:fontFamily="@font/libre_franklin"
+                android:paddingEnd="@dimen/margin_2dp"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                tools:text="22-10-2017" />
+
+
+            <ImageButton
+                android:id="@+id/btn_share"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_toEndOf="@id/date_text"
+                android:adjustViewBounds="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/margin_6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_share_post" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_book"
+        android:layout_width="@dimen/margin_30dp"
+        android:layout_height="@dimen/margin_30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_10dp"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:adjustViewBounds="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/app_name"
+        android:padding="@dimen/margin_6dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_book" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@+id/post_img"
+        android:background="@color/toolbar_boarder" />
+
+</RelativeLayout>

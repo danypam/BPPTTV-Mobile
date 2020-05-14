@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyt_recent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_20dp"
+    android:visibility="gone">
+
+    <TextView
+        android:id="@+id/recent_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_toStartOf="@+id/view_all_recent"
+        android:text="@string/recent_posts"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/view_all_recent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_14dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="end"
+        android:text="@string/view_all"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recent_title"
+        android:layout_margin="@dimen/margin_10dp"
+        android:nestedScrollingEnabled="false" />
+
+    <include
+        android:id="@+id/rv_itemload"
+        layout="@layout/layout_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/rvRecent"
+        android:visibility="gone" />
+
+</RelativeLayout>

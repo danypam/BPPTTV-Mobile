@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt_comment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:id="@+id/lyt_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/author_img"
+            android:layout_width="@dimen/margin_50dp"
+            android:layout_height="@dimen/margin_50dp"
+            android:layout_margin="@dimen/margin_15dp"
+            android:contentDescription="@string/app_name"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="1dp"
+            tools:src="@drawable/ic_comment" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_toEndOf="@+id/author_img">
+
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/libre_franklin"
+                android:textColor="@color/colorAccent21"
+                android:textStyle="bold"
+                tools:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_6dp"
+                android:layout_toEndOf="@+id/author_name"
+                android:fontFamily="@font/libre_franklin"
+                android:textColor="@color/black"
+                tools:text="12-02-2018" />
+
+            <TextView
+                android:id="@+id/comment_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/author_name"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:fontFamily="@font/libre_franklin"
+                android:textColor="@color/black"
+                tools:text="@string/app_name" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_below="@+id/lyt_container"
+        android:background="@color/gray" />
+
+
+</RelativeLayout>

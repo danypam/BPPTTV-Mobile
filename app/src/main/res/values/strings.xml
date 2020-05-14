@@ -1,0 +1,167 @@
+<resources>
+
+    <!-- app name -->
+    <string name="app_name">BPPT TV</string>
+    <string name="tagline">Sumber Informasi Teknologi Terkini</string>
+
+    <!-- app ad section -->
+    <string name="app_ad_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- end of the ad section -->
+
+
+    <!-- app social site links section -->
+    <string name="facebook_url">https://www.facebook.com/BPPTRI</string>
+    <string name="youtube_url">https://www.youtube.com/channel/UCQrgNT2iDrkk-xbMf-gd92g</string>
+    <string name="twitter_user_id">twitter://user?user_id=248502471</string> <!-- find your user id from here: http://gettwitterid.com/  -->
+    <string name="twitter_url">https://twitter.com/bppt_ri</string>
+    <string name="instagram_url">https://www.instagram.com/bppt_ri/</string>
+
+    <!-- terms and conditions, privacy policy and faq url -->
+    <string name="terms_url">https://pmi.bppt.go.id/bidang-kami/bidang-bii/layanan-bii</string>
+    <string name="privacy_url">https://e-ppid.bppt.go.id/index.php/regulasi-kip</string>
+    <string name="faq_url">https://pmi.bppt.go.id/</string>
+
+    <!-- about developer text  -->
+    <string name="developer_name">~DP~</string>
+    <string name="developer_detail">#BPPTSolidSmartSpeed</string>
+    <string name="developer_message">BIDANG INFRASTRUKTUR INFORMASI</string>
+    <string name="developer_nameserpong"><b>PUSAT MANAJEMEN INFORMASI BPPT</b></string>
+    <string name="developer_serpong">Gedung Teknologi Informasi, Komunikasi, dan Elektronika Lantai 2 Jl. Raya Puspiptek, Kota Tangerang Selatan, Banten</string>
+    <string name="developer_namethamrin">HUMAS BPPT</string>
+    <string name="developer_thamrin">Gedung B.J. Habibie Lantai 15 Jl. M.H Thamrin No. 8 Jakarta Pusat DKI Jakarta 10340</string>
+    <string name="developer_emailserpong">e-mail: servicedesk@bppt.go.id</string>
+    <string name="developer_emailthamrin">e-mail: humas@bppt.go.id</string>
+
+    <!-- developer page: replace the developer id by yours -->
+    <string name="developer_page">market://developer?id=BPPT+RI</string>
+    <string name="alternate_dev_page">https://play.google.com/store/apps/developer?id=BPPT+RI</string>
+
+
+    <string name="site_menu_home">Beranda</string>
+    <string name="site_menu_category_list">Kategori</string>
+    <string name="site_menu_book">Penanda Artikel</string>
+    <string name="site_menu_copy">Salin</string>
+    <string name="site_menu_share">Bagikan</string>
+    <string name="site_menu_delete_all">Hapus Semua</string>
+    <string name="site_menu_read_article">Baca Artikel</string>
+    <string name="site_menu_stop_reading">Berhenti Baca</string>
+    <string name="site_menu_copy_text">Salin Teks</string>
+    <string name="site_menu_share_post">Bagikan Artikel</string>
+    <string name="site_menu_download">Unduh Gambar</string>
+    <string name="site_menu_set">Atur sebagai Latar Desktop</string>
+    <string name="site_menu_new_comment">Komentar Baru</string>
+    <string name="delete_all_fav_item">Apakah Kamu ingin menghapus seluruh Penanda Artikel ini?</string>
+    <string name="delete_fav_item">Apakah Kamu ingin menghapus Artikel ini dari daftar Penanda Artikel?</string>
+    <string name="social">Media Sosial</string>
+    <string name="youtube">YouTube</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+
+
+    <string name="others">Lainnya</string>
+    <string name="privacy">Kebijakan Aplikasi</string>
+    <string name="share">Bagikan</string>
+    <string name="rate">Rating Aplikasi</string>
+    <string name="more_app">Aplikasi Populer</string>
+    <string name="settings">Pengaturan</string>
+    <string name="about_dev">Tentang Kami</string>
+    <string name="exit">Keluar</string>
+    <!-- end of the site configuration section-->
+
+    <string name="search">Pencarian</string>
+
+    <string name="rate_title">Rating Aplikasi ini</string>
+    <string name="rate_message">Jika Kamu suka dengan Aplikasi ini, Apakah Kamu ingin memberikan 5 Bintang?
+    Ini tidak lebih dari semenit. Terima kasih atas dukungannya!</string>
+    <!--
+    <string name="rate_message">If you enjoy using this app, would you mind taking a moment to rate it 5 stars?
+    It won\'t take more than a minute. Thank you for your support!</string>
+    -->
+    <string name="rate_positive">Rating Sekarang</string>
+    <string name="rate_remind_later">Nanti</string>
+    <string name="rate_never">Tidak, Terima kasih</string>
+    <string name="empty_result">Tidak ada Data! Refresh kembali!</string>
+    <string name="connect">Connect</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="tapAgain">Tekan sekali lagi untuk Keluar!</string>
+    <string name="permission_not_granted">Permission not granted!</string>
+    <string name="load_more">Memuat lebih banyak item, harap tunggu...</string>
+    <string name="default_string">Default</string>
+    <string name="latest_post">Latest</string>
+    <string name="featured_post">Featured</string>
+    <string name="details_text">Details</string>
+    <string name="comment_list">Comments</string>
+    <string name="user_name">Nama</string>
+    <string name="user_email">Email</string>
+    <string name="user_comment">Komentar</string>
+    <string name="write_comment">Tulis Komentar...</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Batalkan</string>
+    <string name="successful_message">Komentar Berhasil!</string>
+    <string name="error_message">Terjadi error saat memuat! Coba lagi!</string>
+    <string name="hash_tag">#</string>
+    <string name="featured_posts">|What`s New</string>
+    <string name="recent_posts">|Popular Posts</string>
+    <string name="view_all">Lihat Semua</string>
+    <string name="featured">What`s New</string>
+    <string name="recent">Popular Post</string>
+    <string name="tts_wait_msg">Artikel ini akan dibaca secara singkat. Mohon tunggu sebentar...</string>
+    <string name="tts_install_msg">Silakan instal paket Bahasa dari sini</string>
+    <string name="related_posts">|Artikel Terkait</string>
+    <string name="view_comments">Lihat seluruh komentar (%d)</string>
+    <string name="write_a_comment">Tulis komentar baru</string>
+
+
+    <string name="share_text">\nInstall Aplikasi disini:</string>
+    <string name="send_to">Kirim ke: </string>
+    <string name="copy_to_clipboard">Copied to Clipboard!</string>
+    <string name="added_to_bookmark">Artikel ini berhasil ditambahkan ke Penanda Artikel!</string>
+    <string name="removed_from_book">Artikel ini telah dihapus dari Penanda Artikel!</string>
+    <string name="wallpaper_set">Latar Desktop berhasil diatur!</string>
+    <string name="wallpaper_set_failed">Gagal mengatur Latar Desktop!</string>
+    <string name="wallpaper_download">Gambar berhasil diunduh!</string>
+    <string name="wallpaper_download_failed">Gagal mengunduh Gambar!</string>
+    <string name="delete_all_notification">Apakah Kamu ingin menghapus seluruh Notifikasi?</string>
+
+    <string name="close_prompt">Apakah Anda ingin menutup Aplikasi ini?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="failed">Gagal</string>
+    <string name="no_internet">Harap periksa koneksi jaringan Anda (Coba lagi)!</string>
+
+    <string name="set_wallpaper">Atur Latar Desktop...</string>
+    <string-array name="set_wallpaper_options">
+        <item>Layar utama</item>
+        <item>Layar kunci</item>
+        <item>Keduanya</item>
+    </string-array>
+    <string name="lock_screen_set">Latar Desktop Layar kunci berhasil diatur!</string>
+    <string name="home_set">Latar Desktop Layar utama berhasil diatur!</string>
+    <string name="both_set">Latar Desktop Layar utama dan Layar kunci berhasil diatur!</string>
+
+
+    <string name="matches">matches</string>
+    <string name="placeholder">..</string>
+    <string name="notifications">Pemberitahuan</string>
+    <string name="read_post">Baca Artikel</string>
+    <string name="notification_title">Judul Pemberitahuan: </string>
+    <string name="notification_details">Detail Pemberitahuan: </string>
+
+
+    <string name="pref_notification_title">Pemberitahuan</string>
+    <string name="pref_notification_summ">Hidupkan/matikan Pemberitahuan</string>
+    <string name="pref_zoom_title">Zoom Controller</string>
+    <string name="pref_zoom_summ">Enable zoom controller to zoom in/out pages</string>
+    <string name="pref_text_title">Ukuran Teks</string>
+    <string name="select_size">Pilih ukuran teks</string>
+
+    <string name="small_text">Kecil</string>
+    <string name="default_text">Normal</string>
+    <string name="large_text">Besar</string>
+
+
+</resources>
